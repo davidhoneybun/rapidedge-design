@@ -29,11 +29,13 @@ body{
   flex-direction:column;
   align-items:center;
   gap:22px;
+  margin-inline:auto;
 }
 
 .logo-img{
-  width:min(60vw, 420px);
+  width:min(55vw, 420px);
   max-width:100%;
+  max-height:70vh;
   height:auto;
   filter:
     drop-shadow(0 0 18px var(--brand-glow))
@@ -42,6 +44,7 @@ body{
   border:1px solid rgba(255,255,255,.08);
   background:rgba(255,255,255,.01);
   padding:10px;
+  object-fit:contain;
 }
 
 .hero-copy h1{
